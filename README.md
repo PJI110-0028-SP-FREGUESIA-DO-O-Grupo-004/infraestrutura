@@ -41,4 +41,40 @@ docker start servidor-mysql
 
 MySQL Workbench é uma IDE para manipular o banco de dados.
 
-O instalador pode ser contrado [aqui](https://dev.mysql.com/downloads/workbench/)
+O instalador pode ser contrado [aqui](https://dev.mysql.com/downloads/workbench/).
+
+Para se conectar no container local do MySQL use as seguintes configurações:
+
+host: 127.0.0.1
+username: root
+password: senha
+
+## VSCode
+
+VSCode é a IDE que utilizaremos para editar os códigos.
+
+O instalador para Windows pode ser encontrado [aqui](https://code.visualstudio.com/docs/?dv=win).
+
+Na primeira execução o VSCode vai mostrar uma notificação perguntando se você quer instalar o pacote de tradução para o português, eu não recomendo.
+
+O VSCode pode também mostrar uma notificação pedindo para instalar o Python da Microsoft, não precisamos disso pois estamos usando o Anaconda.
+
+Depois de instalado adicione a extenção Python, que pode ser baixada [aqui](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+
+É interessante também instalar a extenção GitLens, pra usar o Git de dentro do VSCode, ela pode ser baixada [aqui](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
+
+## Git
+
+Git é uma ferramenta para controle de versão, ele é inslado quando você criar o ambiente anaconda nos próximos passos :) .
+
+# Criando o ambiente Anaconda
+
+Com o tudo instalado podemos seguir para a criação do ambiente python onde vamos trabalhar.
+
+Baixe o arquivo spec-file.txt deste repositório e execute o seguinte comando no Anaconda Prompt:
+
+```
+conda create --name pi --file spec-file.txt
+```
+
+Pronto :)
