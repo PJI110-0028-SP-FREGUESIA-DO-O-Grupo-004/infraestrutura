@@ -21,7 +21,7 @@ Instruções de instalação podem ser encontradas [aqui](https://docs.docker.co
 
 MySQL é o banco de dados que vamos utilizar.
 
-Ao invés de instalar o aplicativo localmente, vamos utilizar o container oficial disponível [aqui](https://hub.docker.com/_/mysql)
+Ao invés de instalar o aplicativo localmente, vamos utilizar o container oficial. A documentação detalhada pode ser encontrada [aqui](https://hub.docker.com/_/mysql), mas por agora é só seguir pro próximo passo.
 
 Depois de instalado o docker iniciar pela primeira vez um servidor local é fácil, basta abrir o CMD e digitar:
 
