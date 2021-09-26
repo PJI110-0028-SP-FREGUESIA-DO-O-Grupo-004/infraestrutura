@@ -77,4 +77,10 @@ Baixe o arquivo spec-file.txt deste repositório e execute o seguinte comando no
 conda create --name pi --file spec-file.txt
 ```
 
+Para acessar o ambiente depois, você digita no CMD:
+
+```
+conda activate pi
+```
+
 Pronto :)
