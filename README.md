@@ -49,6 +49,12 @@ host: 127.0.0.1
 username: root
 password: senha
 
+Conecte no MySQL e crie um banco de dados vazio com o seguinte comando SQL:
+
+```
+create database pi;
+```
+
 ## VSCode
 
 VSCode é a IDE que utilizaremos para editar os códigos.
@@ -82,5 +88,12 @@ Para acessar o ambiente depois, você digita no CMD:
 ```
 conda activate pi
 ```
+
+Por ultimo, mas não menos importante, precisamos instalar dois pacotes que só funciona via pip:
+```
+pip install flask_sqlalchemy
+pip install mysqlclient
+```
+
 
 Pronto :)
